@@ -1,0 +1,341 @@
+@media(max-width:991px) {
+    .nav-toggler {
+        display: block;
+    }
+
+    .nav-icons-laptop {
+        display: none;
+    }
+
+    .nav-icons-mobile {
+        display: block;
+    }
+
+    .header .nav {
+        width: 100%;
+        padding: 0;
+        max-height: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        transition: all 0.5s ease;
+    }
+
+    .header .nav.open {
+        visibility: visible;
+    }
+
+    .header .nav ul {
+        padding: 12px 15px 0;
+        margin-top: 12px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .header .nav ul li {
+        display: block;
+        margin: 0;
+    }
+
+    .Home-container {
+        height: 90vh;
+        margin-top: 60px;
+        flex-wrap: wrap;
+    }
+
+    .home-content {
+        width: 100%;
+        padding-top: 20px;
+
+    }
+    .content-wraper {
+    width: 85%;
+    margin: auto;
+    }
+
+    .home-content h2 {
+        font-size: 46px;
+    }
+
+    .home-content p {
+        font-size: 18px;
+    }
+
+
+    .home-form {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .form-container {
+        width: 85%;
+        padding: 10px;
+
+    }
+
+    .form-split .date,
+    .time,
+    .drop,
+    .pick {
+        width: 48%;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    .form-container .name,
+    .email,
+    .phone {
+        width: 100%;
+        height: 40px;
+        margin-top: 15px;
+    }
+    .service-wrapper {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .service-txt{
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        position: relative;
+    }
+    .service-item {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        padding-left: 40px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        position: relative;
+        background-color: #f4f4f4;
+    }
+    .service-experience{
+        width: 100%;
+        height: auto;
+        background: #28B170;
+        color: white;
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        position: relative;
+    
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 520px) {
+    .txt h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Home-container {
+        width: 100%;
+        height: 90vh;
+        position: relative;
+        display: flex;
+        margin-top: 60px;
+
+        background-repeat: no-repeat;
+        flex-wrap: wrap;
+        border: 2px solid green;
+        background-size: cover;
+    }
+
+    .home-content {
+        width: 100%;
+        padding-top: 20px;
+        z-index: 2;
+
+    }
+
+    .home-content h2 {
+        font-size: 36px;
+        margin-top: 26px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 10px;
+
+    }
+    .home-btn {
+        margin-top: 15px;
+    }
+    .home-btn-a {
+        margin-right: 15px;
+        width: 188px;
+        height: 55px;
+    }
+
+    .content-wraper {
+        width: 95%;
+
+
+    }
+
+    .home-form {
+        width: 100%;
+        height: auto;
+        padding-top: 0px;
+        z-index: 2;
+
+    }
+
+    .form-container {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+        z-index: 2;
+        margin: auto;
+    }
+
+    .form-split .date,
+    .time,
+    .drop,
+    .pick {
+        width: 48%;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .form-container .name,
+    .email,
+    .phone {
+        width: 100%;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .procedure-container {
+        width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .procedure-item {
+
+        height: 30vh;
+        width: 100%;
+
+    }
+
+    .img-container {
+        width: 80px;
+        height: 80px;
+
+
+    }
+    .footer-iner{
+        width: 100%;
+      flex-wrap: wrap;
+      padding-left: 10px;
+      padding-right: 10px;
+    
+    }
+    .footer-item{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+}
+
+
+/* /5 */
+
+/* 6 */
+
+  @media all and (max-width: 500px) {
+    .testim .arrow {
+      font-size: 1.5em;
+    }
+    
+    .testim .cont div p {
+      line-height: 25px;
+    }
+  
+  }
+  @media only screen and (max-width: 440px) {
+    .banner{
+      margin-top:150px;
+    }
+    .banner-btn{
+      margin-top: 30px;
+      padding: 2px 15px;
+      
+    }
+    .banner-btn a{
+
+       padding: 15px 20px;
+      font-size: 1rem;
+      font-weight: 600;
+  
+    }
+    .banner-content{
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+.pricing-item-container {
+    display: flex;
+    width: 90%;
+    margin: 80px auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.pricing-item {
+    width: 100%;
+   margin-top: 25px;
+   
+    padding: 40px;
+
+}
+}
